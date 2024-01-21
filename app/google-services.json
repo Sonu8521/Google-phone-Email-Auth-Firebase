@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "123233977205",
+    "project_id": "authentication-crud-eabc4",
+    "storage_bucket": "authentication-crud-eabc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123233977205:android:6a3d8f1f9959e1f942c93c",
+        "android_client_info": {
+          "package_name": "com.example.authentication_crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123233977205-8jns2p7cn9nmddelr0a83apv20o4fpm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authentication_crud",
+            "certificate_hash": "94bb983d6daae10ad33c20b28dc48eee95362c64"
+          }
+        },
+        {
+          "client_id": "123233977205-ts9g7at0663qphfsui4am4onnbg1u64p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1M6_NJdCnNU9Q8FkAA-LhP8CzXw_B5HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123233977205-ts9g7at0663qphfsui4am4onnbg1u64p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

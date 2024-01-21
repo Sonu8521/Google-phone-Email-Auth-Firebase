@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/webside"
+    tools:context=".verify_phoneNo">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login With Phone No."
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_login_24"
+            android:layout_marginTop="-30dp"
+            android:layout_marginLeft="10dp"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Enter Phone Number"
+        android:layout_margin="25dp"
+        android:background="@drawable/shape"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/baseline_mobile_screen_share_24"
+        android:inputType="phone"
+        />
+    +
+    <Button
+        android:id="@+id/verifyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Verify Phone Number"
+        />
+
+    <EditText
+        android:id="@+id/otpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Enter OTP"
+        android:background="@drawable/shape"
+        android:padding="8dp"
+        android:layout_margin="25dp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/baseline_vpn_key_24"
+        />
+
+    <Button
+        android:id="@+id/submitOtpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Submit OTP"
+        />
+
+</LinearLayout>
